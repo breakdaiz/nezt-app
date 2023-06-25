@@ -11,6 +11,7 @@ const Card = ({ name, imgUrl, href }) => {
         </div>
         <div className={styles.cardImageWrapper}>
           <Image
+            alt='coffee-image'
             className={styles.cardImage}
             src={imgUrl}
             width={260}
